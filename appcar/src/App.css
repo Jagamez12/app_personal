@@ -1,0 +1,161 @@
+.vista{
+  height: 850px;
+  width: 450px;
+  background-color: #67AECA;
+  border-radius: 30px;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.componente{
+
+  padding: 50px;
+}
+
+.recuadro{
+  height: 750px;
+  width: 350px;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 0px;
+}
+.logo{
+  width: 300px;
+}
+
+.recuadro header{
+  text-align: center;
+  padding: 50px;
+}
+
+.campos{
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#user01{
+  font-size: 20px;
+  border-color: none;
+  border-radius: 50px;
+  border-style: hidden;
+
+}
+#decoracion1{
+  position: relative;
+  left: 50px;
+  border-radius: 50px;
+  width: min-content;
+  border-color: #67AECA;
+  border-style: solid;
+}
+
+#Aceptar{
+  width: 150px;
+  height: 80px;
+  background-color: #675682;
+  border-color: #67AECA;
+  position: relative;
+  left: 85.25px;
+  color: white;
+  border-radius: 20px;  
+}
+#esta{
+  color:#5f0f4e;
+  font-size: 50px;
+  width: 80px;
+  font-family: sans-serif;
+}
+#car{
+  color:#E52a6f;
+  position: relative;
+  top: -91px;
+  left: 5px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+#carrito{
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+#slideshead{
+  text-align: center;
+  padding: 50px;
+  height: 100px;
+}
+#info1{
+  color: white;
+}
+#textinfo{
+  font-size: 18px;
+}
+ul, li{
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  background-color: #67AECA;
+  width: 100;
+}
+ul.slider{
+  position: relative;
+  width: 100%;
+  
+}
+ul.slider li{
+  position: absolute;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity .5s;
+}
+
+ul.slider li:first-child{
+  opacity: 1;
+}
+ul.slider li:target{
+  opacity: 1;
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  bottom: -550px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color:#E52a6f;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+#slide1{
+  width: 350px;
+}
+#slide2{
+  width: 350px;
+}
+#slide3{
+  width: 350px;
+}
+*{
+  font-family: sans-serif;
+}
